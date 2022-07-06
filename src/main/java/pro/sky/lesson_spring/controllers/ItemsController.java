@@ -9,7 +9,7 @@ import pro.sky.lesson_spring.service.OrderService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/store/order")
+@RequestMapping("/order")
 public class ItemsController {
     private final OrderService orderService;
 
